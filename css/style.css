@@ -1,0 +1,71 @@
+@charset "UTF-8";@import "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap";.wallet__item::before,.create__item::before,.create__preview .nft__box::before,.app__wrapper::before,.subscribe__wrapper::before,.features__item::before,.collection__item::before,.bid__item::before,.seller__item::after,.seller__item::before {
+    position: absolute;
+    content: ""
+}
+
+*{
+    scroll-behavior: smooth;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    
+}
+
+.presentation{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.presentation img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.bloc-container{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bloc{
+    background-color: #f5f5f5;
+    max-width: 500px;
+    max-height: 500px;
+    width: 90%;
+    height: 500px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+hr{
+    width: 50%;
+    border-radius: 2px;
+    border: solid 1px grey;
+}
